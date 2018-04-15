@@ -1,0 +1,89 @@
+h1{
+	background-color: #2980B9;
+	margin: 0;
+	color: white;
+	padding : 10px 20px; 
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: normal;
+
+
+}
+
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	font-family: Roboto;
+}
+.fa-plus{
+	float: right;
+}
+
+span{
+	background-color: darkred;
+	height: 40px;
+	margin-right: 20px;
+	text-align:center;
+	color: white;
+	width: 0;
+	display: inline-block;
+	transition: 0.2s linear;
+    opacity: 0;
+}
+
+li:hover span{
+	width: 40px;
+	opacity: 1.0;
+}
+li
+{
+	background-color: #fff;
+	height: 40px;
+	line-height: 40px;
+	color: #666; 
+
+}
+
+input{
+	color: #2980B9;
+	font-size: 18px;
+	background-color: lightgray;
+	width: 100%;
+	padding: 13px 13px 13px 20px;
+	box-sizing: border-box;
+
+}
+
+input:focus{
+ background-color: #fff;
+ outline: none;
+ border :3px solid #2980B9;
+
+}
+li:nth-child(2n){
+background-color: lightgray;
+}
+
+body{
+    background-image: url(https://cdn1.vectorstock.com/i/thumb-large/13/40/todo-list-seamless-pattern-universal-background-vector-7561340.jpg);
+}
+
+
+
+
+
+#container{
+	width: 660px;
+	border: 2px solid gray;
+	margin: 100px auto;
+	background-color: lightgray;
+	box-shadow: 0 0 3px rgba(0,0,0,0.1)
+
+}
+
+.completed{
+	color: gray;
+	text-decoration: line-through;
+
+}
